@@ -7,7 +7,6 @@ import os
 
 st.set_page_config(page_title="🌐 Website Generator (Cerebras)", layout="centered")
 
-st.sidebar.header("⚙️ Configuration")
 
 with st.sidebar:
     # === BRANDING SECTION ===
@@ -26,6 +25,9 @@ with st.sidebar:
     "</div>",
     unsafe_allow_html=True
     )
+
+st.sidebar.header("⚙️ Configuration")
+
 
 # Cerebras API key + models
 api_key = st.sidebar.text_input("Enter your Cerebras API Key", type="password")
