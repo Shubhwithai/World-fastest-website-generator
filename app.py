@@ -77,7 +77,7 @@ if "site_code" not in st.session_state:
     st.session_state.site_code = ""
 
 # ========== UI Header ==========
-st.title("🌐 Website Generator using Cerebras")
+st.title("🌐 World Fastest Website Generator using Cerebras")
 
 # Small helper to build a starter brief from presets
 def build_brief(user_idea: str, preset: str, style: str) -> str:
