@@ -17,7 +17,8 @@ model_name = st.sidebar.selectbox(
         # Solid production picks; adjust as you like
         "gpt-oss-120b",
         "qwen-3-32b",
-        "llama-3.3-70b"
+        "llama-3.3-70b".
+        "qwen-3-coder-480b"
   
     ],
     index=0,
